@@ -38,9 +38,9 @@ const double pi=acos(-1.0);
 #define ps(x,y) fixed<<setprecision(y)<<x
 #define all(v) v.begin(), v.end()
 #define sz(v) (int)v.size()
-#define SORT(v) sort(ALL(v))
-#define SORTC(v, c) sort(ALL(v), c)
-#define REVERSE(v) reverse(ALL(v))
+#define SORT(v) sort(all(v))
+#define SORTC(v, c) sort(all(v), c)
+#define REVERSE(v) reverse(all(v))
 #define test(x) int x; cin>>x; while(x--)
 #define fast ios_base::sync_with_stdio(0);cin.tie(0);cout.tie(0);
 //change path
